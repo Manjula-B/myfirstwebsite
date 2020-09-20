@@ -1,0 +1,102 @@
+body{
+    background: url(background.png)
+    no-repeat center center fixed;
+    background-size: cover;
+    font-family:fantasy;
+    font width:auto;
+    font-weight:bold;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.head{
+    float: left;
+    color:red;
+    font-family: cursive;
+}
+
+nav{
+    float: right;
+}
+
+li{
+    display: inline;
+    padding: 1rem;
+}
+
+li a{
+    color: deepskyblue;
+    text-decoration: none;
+    font-weight:normal;
+}
+
+.active{
+    color: deepskyblue;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+showcase h2{
+    color: darkgoldenrod;
+    font-family: serif;
+    font-weight: normal;
+    text-align: center;
+}
+showcase h2{
+    color: darkgoldenrod;
+    font-family: serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+showcase h3{
+    color:darkorange;
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.category{
+    color:orange;
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    font-family: cursive;
+}
+
+img{
+    display: grid;
+    width: 200px;
+    padding: 5px;
+    border-radius:2px;
+}
+
+.VEG, .NONVEG, .SNACKS, .GRILL{
+    padding-left: 1rem;
+}
+
+h4{
+    color:lawngreen;
+    text-align: left;
+    font-family: monospace;
+    font-size:190%;
+    margin: 3%;
+}
+
+.btn{
+    background-color:yellow;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-left: 45%;
+}
